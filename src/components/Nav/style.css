@@ -1,0 +1,33 @@
+.Nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.Nav_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Icon_nav {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Icons:hover {
+    fill: var(--primary-color);
+    background-color: #3F7373;
+}
+
+.Icon_nav:hover {
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: var(--primary-color);
+
+}

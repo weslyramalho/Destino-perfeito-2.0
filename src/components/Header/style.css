@@ -1,0 +1,64 @@
+.Header {
+    display: flex;
+    height: 95px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Header_Info {
+    display: flex;
+    width: 20%;
+    height: 60px;
+    background-color: var(--quint-color);
+    border-radius: 0px 0px 0px 50px;
+    justify-content: space-between;
+
+}
+
+.Contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--second_color);
+    height: 100%;
+    width: 40%;
+    border-radius: 0px 0px 0px 50px;
+    color: #ffffff;
+    font-weight: bolder;
+    gap: 8px;
+}
+
+.Icons {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+   
+}
+
+.Ajuda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.Telefone {
+    color: #ffffff;
+}
+
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    color: black;
+}
+.Login {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}

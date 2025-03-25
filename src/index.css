@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #ffffff;
+  --primary-color: #3F7373;
+  --second_color: #732B1A;
+  --terc-color: #A64826;
+  --quart-color: #BF754B;
+  --quint-color: #BABDBF;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+

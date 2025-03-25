@@ -1,0 +1,12 @@
+.footer_ {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--second_color);
+    align-self: flex-end;
+  }

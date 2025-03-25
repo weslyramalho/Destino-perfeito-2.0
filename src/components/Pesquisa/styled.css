@@ -1,0 +1,126 @@
+.Pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    height: 220px;
+    width: 100%;
+
+}
+
+.Pesquisa_area {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--second_color);
+    height: 90%;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.Pesquisa_area_dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pesquisa_area_input {
+    background-color: #ffffff;
+    height: 110px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 50px;
+    height: 40px;
+    border: 5x solid white;
+}
+.Input_text {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 60px;
+    gap: 5px
+}
+.area__bt{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+  margin-right: 30px;
+  margin-top: 20px;
+
+}
+
+.Campo_input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.Input_calendario {
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 60px;
+    width: 50%;
+    margin: 2px;
+}
+
+.Input {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Area_input {
+    display: flex;
+    width: 100%;
+}
+
+.Area_input_btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.Form_Label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.Btn_1 {
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+h1 {
+    font-size: 25px;
+    color: #ffffff;
+}
